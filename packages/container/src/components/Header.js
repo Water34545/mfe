@@ -8,6 +8,9 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   '@global': {
+    body: {
+      margin: 0,
+    },
     ul: {
       margin: 0,
       padding: 0,
@@ -19,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
+    backgroundColor: 'white'
   },
   toolbar: {
     flexWrap: 'wrap',
